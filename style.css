@@ -14,7 +14,7 @@
 }
 
 body {
-    width: 1120px;
+    width: 1150px;
     background-color: #F5F5F5;
     margin: 0 auto;
 }
@@ -168,7 +168,7 @@ header nav p:not(:last-child) {
     background: #EEF7FF;
     mix-blend-mode: normal;
     border-radius: 21px;
-    width: 1120px;
+    width: 1150px;
     height: 172px;
     margin-bottom: 30px;
     display: flex;
@@ -198,17 +198,26 @@ header nav p:not(:last-child) {
     margin-right: 20px;
 }
 
+.record {
+    width: 1150px;
+}
+
 .slash {
     background-image: url(./assets/Marico.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 153px;
-    height: 56px;
+    width: 200px;
+    height: 100px;
+    margin-top: 122px;
+    margin-left: 43%;
+
 }
 
-.record h1 {
+.record h2 {
     font: 800 50px 'Mulish';
     color: #001A49;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .button3 {
@@ -218,4 +227,38 @@ header nav p:not(:last-child) {
     text-align: center;
     padding: 20px 0;
     color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
+}
+
+.slashmini {
+    background-image: url(./assets/Marico.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 78px;
+    height: 56px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 1150px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h2 {
+    font: 800 37px 'Mulish';
+    color: #001A49;
+}
+
+footer p {
+    font: 500 25px 'Mulish';
+    color: #707070;
 }
